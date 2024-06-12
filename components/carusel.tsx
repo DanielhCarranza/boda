@@ -31,7 +31,7 @@ const InfoCarousel = () => {
         <h3 className="font-poiretOne text-xl mb-2 text-title">Depósito o transferencia</h3>
         <p className="font-poiretOne text-base mb-1 text-title">BBVA</p>
         <p className="font-poiretOne text-base mb-1 text-title">Tarjeta: 4152 3136 0646 1122</p>
-        <p className="font-poiretOne text-base text-title">Referencia: "BodaZyA"</p>
+        <p className="font-poiretOne text-base text-title">Referencia: &quot;BodaZyA&quot;</p>
       </div>
       {/* Agrega más secciones según sea necesario */}
     </Carousel>

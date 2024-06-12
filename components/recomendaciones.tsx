@@ -28,7 +28,7 @@ const Recomendaciones = () => {
                   <h3 className="font-poiretOne text-xl mb-2 text-title">Depósito o transferencia</h3>
                   <p className="font-poiretOne text-base mb-1 text-title">BBVA</p>
                   <p className="font-poiretOne text-base mb-1 text-title">Tarjeta: 2100 0098 9888 4332</p>
-                  <p className="font-poiretOne text-base text-title">Referencia: "WeddingRominaAndSantiago"</p>
+                  <p className="font-poiretOne text-base text-title">Referencia: &quot;WeddingRominaAndSantiago&quot;</p>
                 </div>
                 <div className="flex-shrink-0 w-full text-center p-5">
                   <div className="w-[300px] h-[150px] mx-auto mb-4 relative">
