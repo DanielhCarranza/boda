@@ -25,10 +25,10 @@ export default async function Home() {
           <Image 
             src="/logo.png" 
             alt="Logo" 
-            width={190} 
-            height={190}
+            width={265} 
+            height={265}
             quality={100} 
-            className="opacity-90 mt-auto mb-25"
+            className="opacity-95 mt-auto mb-35 translate-y-20"
           />
         </div>
         <div className="absolute bottom-0 right-0 p-4">
@@ -44,7 +44,7 @@ export default async function Home() {
           <div className="flex justify-center mb-3">
             <div className="w-48 h-64 relative">
               <Image 
-                src="/boda/IMG_2121.jpg" 
+                src="/boda/IMG_2092.jpg" 
                 alt="Zaira Aguilar" 
                 layout="fill" 
                 objectFit="cover" 
@@ -57,7 +57,7 @@ export default async function Home() {
           <div className="flex justify-center">
             <div className="w-48 h-64 relative">
               <Image 
-                src="/boda/IMG_2181.jpg" 
+                src="/boda/IMG_2485.jpg" 
                 alt="Abhigael Carranza" 
                 layout="fill" 
                 objectFit="cover" 
@@ -97,8 +97,8 @@ export default async function Home() {
           </div>
         </div>
         <div className="absolute top-0 left-0 w-full h-full pointer-events-none">
-          <img src="/hojas.svg" className="absolute top-0 right-0 w-24 h-24 object-cover" alt="Top Right Ornament" />
-          <img src="/hojas.svg" className="absolute bottom-0 left-0 w-24 h-24 transform rotate-180 object-cover" alt="Bottom Left Ornament" />
+          <img src="/hojas.svg" className="absolute top-0 right-0 w-24 h-24 object-cover opacity-25" alt="Top Right Ornament" />
+          <img src="/hojas.svg" className="absolute bottom-0 left-0 w-24 h-24 transform rotate-180 object-cover opacity-25" alt="Bottom Left Ornament" />
         </div>
       </section>
       <section className="relative z-10 w-full bg-fondo2 max-w-xl py-10 px-5 xl:px-0 flex flex-col items-center justify-center">
