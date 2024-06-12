@@ -66,7 +66,7 @@ export default async function Home() {
       <section className="relative z-10 w-full bg-fondo2 max-w-xl py-10 px-5 xl:px-0 flex flex-col items-center justify-center">
         <div className="text-center mb-10">
           <h2 className="font-greatVibes text-2xl mb-3 mt-2 text-title">Ceremonia</h2>
-          <p className="font-poiretOne text-base-plus mb-3 text-title">"Antigua Hacienda Las Palmas"</p>
+          <p className="font-poiretOne text-base-plus mb-3 text-title">&quot;Antigua Hacienda Las Palmas&quot;</p>
           <p className="font-poiretOne text-base-plus mb-8 text-title">Fabrica de Los Ángeles #15, Tronconal, El Alamito Buenavista, Son</p>
           <div className="flex justify-center mb-3">
             <div className="w-24 h-12 flex items-center justify-center border border-border rounded-full">
@@ -82,8 +82,8 @@ export default async function Home() {
         <hr className="border-border border-gray-300 w-full" />
         <div className="text-center mt-5">
           <h2 className="font-greatVibes text-2xl mb-3 mt-2 text-title">Fiesta</h2>
-          <p className="font-poiretOne text-base-plus mb-3 text-title">"Antigua Hacienda Las Palmas"</p>
-          <p className="font-poiretOne text-base-plus mb-8 text-title">Fabrica de Los Ángeles #15, Tronconal, El Alamito Buenavista, Son</p>
+          <p className="font-poiretOne text-base-plus mb-3 text-title">&quot;Antigua Hacienda Las Palmas&quot;</p>
+          <p className="font-poiretOne text-base-plus mb-8 text-title">Fabrica de Los Angeles #15, Tronconal, El Alamito Buenavista, Son</p>
           <div className="flex justify-center mb-3">
             <div className="w-24 h-12 flex items-center justify-center border border-border rounded-full">
               <p className="font-poiretOne text-lg text-title">9:00 pm</p>
