@@ -31,8 +31,11 @@ export default async function Home() {
             className="opacity-90 mt-auto mb-25"
           />
         </div>
+        <div className="absolute bottom-0 right-0 p-4">
+          <img src="/anillos.svg" className="w-28 h-28" alt="Bottom Right Ornament" />
+        </div>
       </section>      
-      <section className="relative z-10 w-full py-10 max-w-xl px-5 xl:px-0 flex flex-col items-center justify-center">
+      <section className="relative z-10 w-full py-10 max-w-xl px-5 xl:px-0 flex flex-col items-center justify-center bg-fondo2">
         <div className="text-center">
           <h2 className="font-greatVibes text-3xl mb-3 mt-2 text-title">Save the Date</h2>
           <p className="font-poiretOne text-base-plus mb-8 text-title">
@@ -49,7 +52,7 @@ export default async function Home() {
               />
             </div>
           </div>
-          <h2 className="font-tangerine text-2xl text-title">Zaira Aguilar</h2>
+          <h2 className="font-tangerine text-2xl text-title">Zaira Gabriela Aguilar Medina</h2>
           <DateCounter targetDate="2024-10-25T00:00:00" />
           <div className="flex justify-center">
             <div className="w-48 h-64 relative">
@@ -62,7 +65,40 @@ export default async function Home() {
               />
             </div>
           </div>
-          <h2 className="font-tangerine text-2xl mt-3 text-title">Abhigael Carranza</h2>
+          <h2 className="font-tangerine text-2xl mt-3 text-title">Abhigael Mendez Carranza</h2>
+        </div>
+      </section>
+      <section className="relative z-10 py-5 w-full max-w-xl px-5 xl:px-0 flex flex-col items-center justify-center bg-fondo rounded-lg mx-4 my-8">
+        <div className="text-center">
+          <h2 className="font-greatVibes text-3xl mb-3 mt-2 text-title">Padres y Padrinos</h2>
+          <div className="mb-8">
+            <h3 className="font-poiretOne text-2xl mb-2 text-title">Padres de la Novia</h3>
+            <p className="font-poiretOne text-base-plus text-title">Jose Luis Aguilar Medina</p>
+            <p className="font-poiretOne text-base-plus text-title">Gabriela Medina Lozano</p>
+          </div>
+          <div className="mb-8">
+            <h3 className="font-poiretOne text-2xl mb-2 text-title">Padres del Novio</h3>
+            <p className="font-poiretOne text-base-plus text-title">Concepcion Carranza Huerta</p>
+          </div>
+          <div className="mb-8">
+            <h3 className="font-poiretOne text-2xl mb-2 text-title">Padrinos de Arras y Biblia</h3>
+            <p className="font-poiretOne text-base-plus text-title">Karen Evireth Zamorano Enriquez</p>
+            <p className="font-poiretOne text-base-plus text-title">Alan Burruel Romualdo</p>
+          </div>
+          <div className="mb-8">
+            <h3 className="font-poiretOne text-2xl mb-2 text-title">Padrinos de Lazo</h3>
+            <p className="font-poiretOne text-base-plus text-title">Bienvenida Aguilar Preciado</p>
+            <p className="font-poiretOne text-base-plus text-title">Oscar Soria Noriega</p>
+          </div>
+          <div className="mb-4">
+            <h3 className="font-poiretOne text-2xl mb-2 text-title">Padrinos de Anillos</h3>
+            <p className="font-poiretOne text-base-plus text-title">Maria de Lourdes Carranza Huerta</p>
+            <p className="font-poiretOne text-base-plus text-title">Juan Fernando Ibarra</p>
+          </div>
+        </div>
+        <div className="absolute top-0 left-0 w-full h-full pointer-events-none">
+          <img src="/hojas.svg" className="absolute top-0 right-0 w-24 h-24 object-cover" alt="Top Right Ornament" />
+          <img src="/hojas.svg" className="absolute bottom-0 left-0 w-24 h-24 transform rotate-180 object-cover" alt="Bottom Left Ornament" />
         </div>
       </section>
       <section className="relative z-10 w-full bg-fondo2 max-w-xl py-10 px-5 xl:px-0 flex flex-col items-center justify-center">
@@ -104,7 +140,7 @@ export default async function Home() {
             ¡Todas las historias de amor son bonitas pero la nuestra es nuestra favorita!
           </blockquote>
           <p className="font-poiretOne text-base-plus mb-8 text-title">
-            ¡Para el amor no existe el momento perfecto, sino la persona perfecta! Iniciamos 2020 con muchos sueños por cumplir y decidimos hacer realidad el más importante. Con vista a un lago, acompañado de un tradicional Mariachi y con un poco de nervios llegó la propuesta. ¿Zaira te quieres casar conmigo?
+            ¡Para el amor no existe el momento perfecto, sino la persona perfecta! Iniciamos 2020 con muchos sueños por cumplir y decidimos hacer realidad el más importante. Con vista al mar, disfrutando de la brisa y tomandonos fotos, con un poco de nervios llegó el momento. ¿Zaira te quieres casar conmigo?
           </p>
           <p className="font-poiretOne text-base-plus text-title italic">
             Me dio la mano y contestó: ¡Sí mi amor me quiero casar contigo! Con los ojos cristalinos nos abrazamos después de ese momento tan emotivo, ahora unos meses más tarde iniciaremos este viaje de vida juntos.
