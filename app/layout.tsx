@@ -4,6 +4,7 @@ import { sfPro, inter } from "./fonts";
 import Footer from "@/components/layout/footer";
 import { Suspense } from "react";
 import { Analytics as VercelAnalytics } from "@vercel/analytics/react";
+import Musica from '@/components/musica';
 
 export const metadata = {
   title: "Boda Abhigael & Zayra",
@@ -26,6 +27,7 @@ export default async function RootLayout({
         <main className="flex min-h-screen w-full flex-col items-center justify-center">
           {children}
         </main>
+        <Musica />
         <Footer />
         <VercelAnalytics />
       </body>

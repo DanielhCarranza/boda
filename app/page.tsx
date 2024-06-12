@@ -1,10 +1,9 @@
-
 import Image from "next/image";
 import Gallery from '@/components/gallery';
 import DateCounter from '@/components/date-counter';
 import RSVPForm from '@/components/rsvpForms';
-import Recomendaciones from '@/components/recomendaciones';
 import InfoCarousel from '@/components/carusel';
+import Musica from '@/components/musica';
 
 
 import { getImages } from '@/lib/getimages';
@@ -129,9 +128,6 @@ export default async function Home() {
       <section className="relative z-10 bg-fondo w-full max-w-xl  px-5 xl:px-0">
         <Gallery images={images} />
       </section>
-      {/* <section className="relative overflow-hidden z-10 w-full max-w-md px-10 xl:px-0 flex flex-col items-center justify-center bg-fondo2">
-        <Recomendaciones />
-      </section> */}
       <section className="relative z-10 w-full max-w-xl px-5 xl:px-0 flex flex-col items-center justify-center bg-fondo2 rounded-lg mx-4 my-8">
         <div className="text-center py-5">
           <h2 className="font-greatVibes text-3xl mb-3 mt-2 text-title">Nuestras recomendaciones</h2>
