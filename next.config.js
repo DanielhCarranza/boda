@@ -2,6 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  env: {
+    AIRTABLE_API_KEY: process.env['AIRTABLE_API_KEY']
+  },
   images: {
     domains: ["lh3.googleusercontent.com", "vercel.com"],
   },

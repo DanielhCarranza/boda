@@ -36,25 +36,30 @@ const DateCounter: React.FC<CountdownProps> = ({ targetDate }) => {
     return () => clearInterval(timer);
   }, [targetDate]);
 
+
   return (
-    <div className="flex flex-col items-center font-sans text-brown-700">
-      <h2 className="text-2xl mb-2">Faltan</h2>
-      <div className="flex justify-center border-2 border-brown-700 rounded-lg p-5">
-        <div className="flex flex-col items-center mx-2">
-          <span className="text-4xl">{timeLeft.days}</span>
-          <span className="text-sm">Días</span>
+    <div className="flex flex-col items-center justify-center h-[25vh] bg-[#f8f5f1]">
+      <div className="relative text-center text-[#a27d6b] p-4 inline-block border border-[#a27d6b] rounded-lg">
+        <div className="absolute top-[-22px] left-1/2 transform -translate-x-1/2 bg-[#f8f5f1] px-2">
+          <h2 className="font-parisienne text-title text-3xl m-0">Faltan</h2>
         </div>
-        <div className="flex flex-col items-center mx-2">
-          <span className="text-4xl">{timeLeft.hours}</span>
-          <span className="text-sm">Hrs</span>
-        </div>
-        <div className="flex flex-col items-center mx-2">
-          <span className="text-4xl">{timeLeft.minutes}</span>
-          <span className="text-sm">Mins</span>
-        </div>
-        <div className="flex flex-col items-center mx-2">
-          <span className="text-4xl">{timeLeft.seconds}</span>
-          <span className="text-sm">Segs</span>
+        <div className="flex justify-center gap-6 mt-0">
+          <div className="flex flex-col items-center mx-2">
+            <span className="text-3xl font-poiretOne">{timeLeft.days}</span>
+            <span className="text-sm font-poiretOne text-gris">Días</span>
+          </div>
+          <div className="flex flex-col items-center mx-2">
+            <span className="text-3xl font-poiretOne">{timeLeft.hours}</span>
+            <span className="text-sm font-poiretOne text-gris">Hrs</span>
+          </div>
+          <div className="flex flex-col items-center mx-2">
+            <span className="text-3xl font-poiretOne">{timeLeft.minutes}</span>
+            <span className="text-sm font-poiretOne text-gris">Mins</span>
+          </div>
+          <div className="flex flex-col items-center mx-2">
+            <span className="text-3xl font-poiretOne">{timeLeft.seconds}</span>
+            <span className="text-sm font-poiretOne text-gris">Segs</span>
+          </div>
         </div>
       </div>
     </div>

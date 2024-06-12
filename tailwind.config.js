@@ -11,6 +11,29 @@ module.exports = {
       fontFamily: {
         display: ["var(--font-sf)", "system-ui", "sans-serif"],
         default: ["var(--font-inter)", "system-ui", "sans-serif"],
+        parisienne: ['Parisienne', 'cursive'],
+        greatVibes: ['Great Vibes', 'cursive'],
+        tangerine: ['Tangerine', 'cursive'],
+        poiretOne: ['Poiret One', 'sans-serif'],
+      },
+      letterSpacing: {
+        custom: '0px',
+      },
+      lineHeight: {
+        custom: '1.4',
+      },
+      fontSize: {
+        'base-plus': '1.1rem',
+      },
+      colors: {
+        customColor: '#9b5d39',
+        fondo: '#F9F4EF',
+        fondo2: '#FDFBFA',
+        gris: '#707070',
+        title: '#515151',
+        border: '#a27d6b',
+        border2: '#ccb186',
+        rsvp: '#F1EEE7'
       },
       animation: {
         // Fade up and down

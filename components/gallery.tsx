@@ -30,8 +30,11 @@ const Gallery = ({ images }: GalleryProps) => {
   const displayedImages = images.slice(currentIndex, currentIndex + 6);
 
   return (
-    <div className="relative">
-      <div className="mx-auto w-full max-w-screen-lg relative py-[16vh] grid place-items-center grid-cols-3 gap-4 p-4">
+    <div className="relative mt-5">
+      <h2 className="text-center font-parisienne tracking-custom leading-custom text-3xl text-title">
+        Galeria de Fotos
+      </h2>
+      <div className="mx-auto w-full max-w-screen-lg relative py-[5vh] grid place-items-center grid-cols-3 gap-4 p-4">
         {displayedImages.map((src, index) => (
           <div key={index} className={`column relative w-full h-64 overflow-hidden rounded-lg ${rotations[index % rotations.length]} transition-transform duration-300 ease-out`}>
             <div className="w-full h-full relative overflow-hidden rounded-lg">
