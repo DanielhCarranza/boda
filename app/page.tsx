@@ -3,6 +3,9 @@ import Image from "next/image";
 import Gallery from '@/components/gallery';
 import DateCounter from '@/components/date-counter';
 import RSVPForm from '@/components/rsvpForms';
+import Recomendaciones from '@/components/recomendaciones';
+import InfoCarousel from '@/components/carusel';
+
 
 import { getImages } from '@/lib/getimages';
 
@@ -123,8 +126,34 @@ export default async function Home() {
       <section className="relative z-10 w-full max-w-xl px-5 xl:px-0 flex flex-col items-center justify-center bg-rsvp border-border rounded-lg mx-4 my-8">
         <RSVPForm />
       </section>
-      <section className="relative z-10 bg-fondo w-full max-w-xl h-screen px-5 xl:px-0">
+      <section className="relative z-10 bg-fondo w-full max-w-xl  px-5 xl:px-0">
         <Gallery images={images} />
+      </section>
+      {/* <section className="relative overflow-hidden z-10 w-full max-w-md px-10 xl:px-0 flex flex-col items-center justify-center bg-fondo2">
+        <Recomendaciones />
+      </section> */}
+      <section className="relative z-10 w-full max-w-xl px-5 xl:px-0 flex flex-col items-center justify-center bg-fondo2 rounded-lg mx-4 my-8">
+        <div className="text-center py-5">
+          <h2 className="font-greatVibes text-3xl mb-3 mt-2 text-title">Nuestras recomendaciones</h2>
+          <p className="font-poiretOne text-base-plus mb-8 text-title">
+            No olvides utilizar nuestro filtro de Instagram y etiquetarnos
+          </p>
+          <h2 className="font-tangerine text-2xl text-title">#Zaira&Abhigael</h2>
+          <a 
+            href="https://www.instagram.com" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="mt-4 inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-full shadow-sm text-title bg-fondo hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
+          >
+            <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.334 3.608 1.31.975.975 1.248 2.242 1.31 3.608.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.062 1.366-.334 2.633-1.31 3.608-.975.975-2.242 1.248-3.608 1.31-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.334-3.608-1.31-.975-.975-1.248-2.242-1.31-3.608-.058-1.266-.07-1.646-.07-4.85s.012-3.584.07-4.85c.062-1.366.334-2.633 1.31-3.608.975-.975 2.242-1.248 3.608-1.31 1.266-.058 1.646-.07 4.85-.07zm0-2.163c-3.259 0-3.667.014-4.947.072-1.281.058-2.418.27-3.29.542-.872.272-1.611.63-2.347 1.366-.736.736-1.094 1.475-1.366 2.347-.272.872-.484 2.009-.542 3.29-.058 1.28-.072 1.688-.072 4.947s.014 3.667.072 4.947c.058 1.281.27 2.418.542 3.29.272.872.63 1.611 1.366 2.347.736.736 1.475 1.094 2.347 1.366.872.272 2.009.484 3.29.542 1.28.058 1.688.072 4.947.072s3.667-.014 4.947-.072c1.281-.058 2.418-.27 3.29-.542.872-.272 1.611-.63 2.347-1.366.736-.736 1.094-1.475 1.366-2.347.272-.872.484-2.009.542-3.29.058-1.28.072-1.688.072-4.947s-.014-3.667-.072-4.947c-.058-1.281-.27-2.418-.542-3.29-.272-.872-.63-1.611-1.366-2.347-.736-.736-1.475-1.094-2.347-1.366-.872-.272-2.009-.484-3.29-.542-1.28-.058-1.688-.072-4.947-.072zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.162c-2.207 0-4-1.793-4-4s1.793-4 4-4 4 1.793 4 4-1.793 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.441s.645 1.441 1.441 1.441 1.441-.645 1.441-1.441-.645-1.441-1.441-1.441z"/>
+            </svg>
+            Utiliza nuestro filtro
+          </a>
+        </div>
+      </section>
+      <section className="relative overflow-hidden z-10 w-full max-w-md px-10 xl:px-0 flex flex-col items-center justify-center bg-fondo2">
+        <InfoCarousel />
       </section>
     </>
   );
