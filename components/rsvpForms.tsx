@@ -43,7 +43,7 @@ const RSVPForm: React.FC = () => {
         body: JSON.stringify(data),
       });
       if (response.ok) {
-        alert('RSVP submitted successfully!');
+        alert('Muchas gracias por confirmar tu asistencia!');
         setFormData({
           name: '',
           guests: '',
@@ -51,11 +51,11 @@ const RSVPForm: React.FC = () => {
           message: '',
         });
       } else {
-        alert('Failed to submit RSVP.');
+        alert('No se pudo confirmar tu asistencia. Por favor, inténtalo de nuevo.');
       }
     } catch (error) {
       console.error('Error submitting RSVP:', error);
-      alert('An error occurred. Please try again.');
+      alert('No se pudo confirmar tu asistencia. Por favor, inténtalo de nuevo.');
     }
   };
 

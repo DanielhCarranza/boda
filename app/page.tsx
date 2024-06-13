@@ -105,7 +105,7 @@ export default async function Home() {
         </div>
         <div className="relative w-full h-full flex items-center justify-center">
           <Image 
-            src="/itinerario.svg" 
+            src="/itinerario2.svg" 
             alt="Itinerario" 
             layout="fill" 
             objectFit="contain" 
@@ -151,7 +151,7 @@ export default async function Home() {
         <div className="text-center">
           <h2 className="font-greatVibes text-3xl mb-3 mt-2 text-title">Ubicacion</h2>
           <p className="font-poiretOne text-base-plus mb-3 text-texto">&quot;Antigua Hacienda Las Palmas&quot;</p>
-          <p className="font-poiretOne text-base-plus mb-8 text-texto">Fabrica de Los ngeles #15, Tronconal, El Alamito Buenavista, Son</p>
+          <p className="font-poiretOne text-base-plus mb-8 text-texto">Fabrica de Los Angeles #15, Tronconal, El Alamito Buenavista, Son</p>
           <div className="flex justify-center mb-3">
             <div> 
               <a href="https://maps.app.goo.gl/tv7saRPfTWwui8so8" target="_blank" rel="noopener noreferrer" className="w-24 h-12 flex items-center justify-center bg-border text-white rounded-full ml-4">
