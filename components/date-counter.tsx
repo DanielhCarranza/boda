@@ -46,19 +46,19 @@ const DateCounter: React.FC<CountdownProps> = ({ targetDate }) => {
         <div className="flex justify-center gap-6 mt-0">
           <div className="flex flex-col items-center mx-2">
             <span className="text-3xl font-poiretOne">{timeLeft.days}</span>
-            <span className="text-sm font-poiretOne text-gris">Días</span>
+            <span className="text-sm font-poiretOne text-texto">Días</span>
           </div>
           <div className="flex flex-col items-center mx-2">
             <span className="text-3xl font-poiretOne">{timeLeft.hours}</span>
-            <span className="text-sm font-poiretOne text-gris">Hrs</span>
+            <span className="text-sm font-poiretOne text-texto">Hrs</span>
           </div>
           <div className="flex flex-col items-center mx-2">
             <span className="text-3xl font-poiretOne">{timeLeft.minutes}</span>
-            <span className="text-sm font-poiretOne text-gris">Mins</span>
+            <span className="text-sm font-poiretOne text-texto">Mins</span>
           </div>
           <div className="flex flex-col items-center mx-2">
             <span className="text-3xl font-poiretOne">{timeLeft.seconds}</span>
-            <span className="text-sm font-poiretOne text-gris">Segs</span>
+            <span className="text-sm font-poiretOne text-texto">Segs</span>
           </div>
         </div>
       </div>

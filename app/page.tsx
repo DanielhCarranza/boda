@@ -3,8 +3,6 @@ import Gallery from '@/components/gallery';
 import DateCounter from '@/components/date-counter';
 import RSVPForm from '@/components/rsvpForms';
 import InfoCarousel from '@/components/carusel';
-import Musica from '@/components/musica';
-
 
 import { getImages } from '@/lib/getimages';
 
@@ -23,7 +21,7 @@ export default async function Home() {
         />
         <div className="absolute inset-0 flex items-center justify-center h-full">
           <Image 
-            src="/logo.png" 
+            src="/logo2.png" 
             alt="Logo" 
             width={265} 
             height={265}
@@ -38,7 +36,7 @@ export default async function Home() {
       <section className="relative z-10 w-full py-10 max-w-xl px-5 xl:px-0 flex flex-col items-center justify-center bg-fondo2">
         <div className="text-center">
           <h2 className="font-greatVibes text-3xl mb-3 mt-2 text-title">Save the Date</h2>
-          <p className="font-poiretOne text-base-plus mb-8 text-title">
+          <p className="font-poiretOne text-base-plus mb-8 text-texto">
             Después de 4 años de noviazgo, hemos decidido unirnos en matrimonio y nos complace que seas parte de nuestra celebración.
           </p>
           <div className="flex justify-center mb-3">
@@ -52,7 +50,7 @@ export default async function Home() {
               />
             </div>
           </div>
-          <h2 className="font-tangerine text-2xl text-title">Zaira Gabriela Aguilar Medina</h2>
+          <h2 className="font-tangerine text-2xl text-texto">Zaira Gabriela Aguilar Medina</h2>
           <DateCounter targetDate="2024-10-25T00:00:00" />
           <div className="flex justify-center">
             <div className="w-48 h-64 relative">
@@ -65,35 +63,35 @@ export default async function Home() {
               />
             </div>
           </div>
-          <h2 className="font-tangerine text-2xl mt-3 text-title">Abhigael Mendez Carranza</h2>
+          <h2 className="font-tangerine text-2xl mt-3 text-texto">Abhigael Mendez Carranza</h2>
         </div>
       </section>
       <section className="relative z-10 py-5 w-full max-w-xl px-5 xl:px-0 flex flex-col items-center justify-center bg-fondo rounded-lg mx-4 my-8">
         <div className="text-center">
           <h2 className="font-greatVibes text-3xl mb-3 mt-2 text-title">Padres y Padrinos</h2>
           <div className="mb-8">
-            <h3 className="font-poiretOne text-2xl mb-2 text-title">Padres de la Novia</h3>
-            <p className="font-poiretOne text-base-plus text-title">Jose Luis Aguilar Medina</p>
-            <p className="font-poiretOne text-base-plus text-title">Gabriela Medina Lozano</p>
+            <h3 className="font-poiretOne text-2xl mb-2 text-texto">Padres de la Novia</h3>
+            <p className="font-poiretOne text-base-plus text-texto">Jose Luis Aguilar Medina</p>
+            <p className="font-poiretOne text-base-plus text-texto">Gabriela Medina Lozano</p>
           </div>
           <div className="mb-8">
-            <h3 className="font-poiretOne text-2xl mb-2 text-title">Padres del Novio</h3>
-            <p className="font-poiretOne text-base-plus text-title">Concepcion Carranza Huerta</p>
+            <h3 className="font-poiretOne text-2xl mb-2 text-texto">Padres del Novio</h3>
+            <p className="font-poiretOne text-base-plus text-texto">Concepcion Carranza Huerta</p>
           </div>
           <div className="mb-8">
-            <h3 className="font-poiretOne text-2xl mb-2 text-title">Padrinos de Arras y Biblia</h3>
-            <p className="font-poiretOne text-base-plus text-title">Karen Evireth Zamorano Enriquez</p>
-            <p className="font-poiretOne text-base-plus text-title">Alan Burruel Romualdo</p>
+            <h3 className="font-poiretOne text-2xl mb-2 text-texto">Padrinos de Arras y Biblia</h3>
+            <p className="font-poiretOne text-base-plus text-texto">Karen Evireth Zamorano Enriquez</p>
+            <p className="font-poiretOne text-base-plus text-texto">Alan Burruel Romualdo</p>
           </div>
           <div className="mb-8">
-            <h3 className="font-poiretOne text-2xl mb-2 text-title">Padrinos de Lazo</h3>
-            <p className="font-poiretOne text-base-plus text-title">Bienvenida Aguilar Preciado</p>
-            <p className="font-poiretOne text-base-plus text-title">Oscar Soria Noriega</p>
+            <h3 className="font-poiretOne text-2xl mb-2 text-texto">Padrinos de Lazo</h3>
+            <p className="font-poiretOne text-base-plus text-texto">Bienvenida Aguilar Preciado</p>
+            <p className="font-poiretOne text-base-plus text-texto">Oscar Soria Noriega</p>
           </div>
           <div className="mb-4">
-            <h3 className="font-poiretOne text-2xl mb-2 text-title">Padrinos de Anillos</h3>
-            <p className="font-poiretOne text-base-plus text-title">Maria de Lourdes Carranza Huerta</p>
-            <p className="font-poiretOne text-base-plus text-title">Juan Fernando Ibarra</p>
+            <h3 className="font-poiretOne text-2xl mb-2 text-texto">Padrinos de Anillos</h3>
+            <p className="font-poiretOne text-base-plus text-texto">Maria de Lourdes Carranza Huerta</p>
+            <p className="font-poiretOne text-base-plus text-texto">Juan Fernando Ibarra</p>
           </div>
         </div>
         <div className="absolute top-0 left-0 w-full h-full pointer-events-none">
@@ -101,7 +99,22 @@ export default async function Home() {
           <img src="/hojas.svg" className="absolute bottom-0 left-0 w-24 h-24 transform rotate-180 object-cover opacity-25" alt="Bottom Left Ornament" />
         </div>
       </section>
-      <section className="relative z-10 w-full bg-fondo2 max-w-xl py-10 px-5 xl:px-0 flex flex-col items-center justify-center">
+      <section className="relative w-full h-screen flex flex-col items-center justify-start bg-fondo2 md:pb-16">
+        <div className="text-center z-10">
+          <h2 className="font-greatVibes text-3xl mb-3 mt-2 text-title translate-y-20">Itinerario</h2>
+        </div>
+        <div className="relative w-full h-full flex items-center justify-center">
+          <Image 
+            src="/itinerario.svg" 
+            alt="Itinerario" 
+            layout="fill" 
+            objectFit="contain" 
+            quality={100}
+            className="pointer-events-none mt-auto"
+          />
+        </div>
+      </section>
+      {/* <section className="relative z-10 w-full bg-fondo2 max-w-xl py-10 px-5 xl:px-0 flex flex-col items-center justify-center">
         <div className="text-center mb-10">
           <h2 className="font-greatVibes text-2xl mb-3 mt-2 text-title">Ceremonia</h2>
           <p className="font-poiretOne text-base-plus mb-3 text-title">&quot;Antigua Hacienda Las Palmas&quot;</p>
@@ -133,16 +146,30 @@ export default async function Home() {
             </div>
           </div>
         </div>
+      </section> */}
+      <section className="relative z-10 w-full bg-fondo py-10 max-w-xl px-5 xl:px-0 flex flex-col items-center justify-center">
+        <div className="text-center">
+          <h2 className="font-greatVibes text-3xl mb-3 mt-2 text-title">Ubicacion</h2>
+          <p className="font-poiretOne text-base-plus mb-3 text-texto">&quot;Antigua Hacienda Las Palmas&quot;</p>
+          <p className="font-poiretOne text-base-plus mb-8 text-texto">Fabrica de Los ngeles #15, Tronconal, El Alamito Buenavista, Son</p>
+          <div className="flex justify-center mb-3">
+            <div> 
+              <a href="https://maps.app.goo.gl/tv7saRPfTWwui8so8" target="_blank" rel="noopener noreferrer" className="w-24 h-12 flex items-center justify-center bg-border text-white rounded-full ml-4">
+                <p className="font-poiretOne text-lg">LLEVARME</p>
+              </a>
+            </div>
+          </div>
+        </div>
       </section>
-      <section className="relative py-10 z-10 px-5 w-full max-w-xl xl:px-0 flex flex-col items-center justify-center bg-fondo rounded-lg">
+      <section className="relative py-10 z-10 px-5 w-full max-w-xl xl:px-0 flex flex-col items-center justify-center bg-fondo2 rounded-lg">
         <div className="text-center mb-10">
           <blockquote className="font-greatVibes text-3xl mb-3 mt-2 text-title">
             ¡Todas las historias de amor son bonitas pero la nuestra es nuestra favorita!
           </blockquote>
-          <p className="font-poiretOne text-base-plus mb-8 text-title">
+          <p className="font-poiretOne text-base-plus mb-8 text-texto">
             ¡Para el amor no existe el momento perfecto, sino la persona perfecta! Iniciamos 2020 con muchos sueños por cumplir y decidimos hacer realidad el más importante. Con vista al mar, disfrutando de la brisa y tomandonos fotos, con un poco de nervios llegó el momento. ¿Zaira te quieres casar conmigo?
           </p>
-          <p className="font-poiretOne text-base-plus text-title italic">
+          <p className="font-poiretOne text-base-plus text-texto italic">
             Me dio la mano y contestó: ¡Sí mi amor me quiero casar contigo! Con los ojos cristalinos nos abrazamos después de ese momento tan emotivo, ahora unos meses más tarde iniciaremos este viaje de vida juntos.
           </p>
           </div>
@@ -158,7 +185,7 @@ export default async function Home() {
           </div>
         </div>
       </section>
-      <section className="relative z-10 w-full max-w-xl px-5 xl:px-0 flex flex-col items-center justify-center bg-rsvp border-border rounded-lg mx-4 my-8">
+      <section className="relative z-10 w-full max-w-xl px-5 xl:px-0 flex flex-col items-center justify-center border-border rounded-lg mx-4 my-8">
         <RSVPForm />
       </section>
       <section className="relative z-10 bg-fondo w-full max-w-xl  px-5 xl:px-0">
@@ -167,10 +194,10 @@ export default async function Home() {
       <section className="relative z-10 w-full max-w-xl px-5 xl:px-0 flex flex-col items-center justify-center bg-fondo2 rounded-lg mx-4 my-8">
         <div className="text-center py-5">
           <h2 className="font-greatVibes text-3xl mb-3 mt-2 text-title">Nuestras recomendaciones</h2>
-          <p className="font-poiretOne text-base-plus mb-8 text-title">
+          <p className="font-poiretOne text-base-plus mb-8 text-texto">
             No olvides utilizar nuestro filtro de Instagram y etiquetarnos
           </p>
-          <h2 className="font-tangerine text-2xl text-title">#Zaira&Abhigael</h2>
+          <h2 className="font-tangerine text-2xl text-texto">#Zaira&Abhigael</h2>
           <a 
             href="https://www.instagram.com" 
             target="_blank" 
@@ -190,4 +217,3 @@ export default async function Home() {
     </>
   );
 }
-

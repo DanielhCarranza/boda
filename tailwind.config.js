@@ -23,7 +23,7 @@ module.exports = {
         custom: '1.4',
       },
       fontSize: {
-        'base-plus': '1.1rem',
+        'base-plus': '1.13rem',
       },
       colors: {
         customColor: '#9b5d39',
@@ -33,7 +33,8 @@ module.exports = {
         title: '#515151',
         border: '#a27d6b',
         border2: '#ccb186',
-        rsvp: '#F1EEE7'
+        rsvp: '#F1EEE7',
+        texto: '#171717'
       },
       animation: {
         // Fade up and down
