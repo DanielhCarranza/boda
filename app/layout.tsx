@@ -8,10 +8,10 @@ import Musica from '@/components/musica';
 import Header from '@/components/header';
 
 export const metadata = {
-  title: "Boda Abhigael & Zayra",
+  title: "Boda Zaira & Abhigael",
   description:
-    "Te invitamos a nuestra Boda Abhigael & Zayra",
-  metadataBase: new URL("https://bodaabhigaelzayra.com"),
+    "Te invitamos a nuestra Boda Zaira & Abhigael",
+  metadataBase: new URL("https://bodazairaabhigael.com"),
 };
 
 export default async function RootLayout({
