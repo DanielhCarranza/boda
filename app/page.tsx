@@ -114,39 +114,6 @@ export default async function Home() {
           />
         </div>
       </section>
-      {/* <section className="relative z-10 w-full bg-fondo2 max-w-xl py-10 px-5 xl:px-0 flex flex-col items-center justify-center">
-        <div className="text-center mb-10">
-          <h2 className="font-greatVibes text-2xl mb-3 mt-2 text-title">Ceremonia</h2>
-          <p className="font-poiretOne text-base-plus mb-3 text-title">&quot;Antigua Hacienda Las Palmas&quot;</p>
-          <p className="font-poiretOne text-base-plus mb-8 text-title">Fabrica de Los Ángeles #15, Tronconal, El Alamito Buenavista, Son</p>
-          <div className="flex justify-center mb-3">
-            <div className="w-24 h-12 flex items-center justify-center border border-border rounded-full">
-              <p className="font-poiretOne text-lg text-title">8:00 pm</p>
-            </div>
-            <div> 
-              <a href="https://maps.app.goo.gl/tv7saRPfTWwui8so8" target="_blank" rel="noopener noreferrer" className="w-24 h-12 flex items-center justify-center bg-border text-white rounded-full ml-4">
-                <p className="font-poiretOne text-lg">LLEVARME</p>
-              </a>
-            </div>
-          </div>
-        </div>
-        <hr className="border-border border-gray-300 w-full" />
-        <div className="text-center mt-5">
-          <h2 className="font-greatVibes text-2xl mb-3 mt-2 text-title">Fiesta</h2>
-          <p className="font-poiretOne text-base-plus mb-3 text-title">&quot;Antigua Hacienda Las Palmas&quot;</p>
-          <p className="font-poiretOne text-base-plus mb-8 text-title">Fabrica de Los Angeles #15, Tronconal, El Alamito Buenavista, Son</p>
-          <div className="flex justify-center mb-3">
-            <div className="w-24 h-12 flex items-center justify-center border border-border rounded-full">
-              <p className="font-poiretOne text-lg text-title">9:00 pm</p>
-            </div>
-            <div> 
-              <a href="https://maps.app.goo.gl/tv7saRPfTWwui8so8" target="_blank" rel="noopener noreferrer" className="w-24 h-12 flex items-center justify-center bg-border text-white rounded-full ml-4">
-                <p className="font-poiretOne text-lg">LLEVARME</p>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section> */}
       <section className="relative z-10 w-full bg-fondo py-10 max-w-xl px-5 xl:px-0 flex flex-col items-center justify-center">
         <div className="text-center">
           <h2 className="font-greatVibes text-3xl mb-3 mt-2 text-title">Ubicacion</h2>
@@ -167,10 +134,10 @@ export default async function Home() {
             ¡Todas las historias de amor son bonitas pero la nuestra es nuestra favorita!
           </blockquote>
           <p className="font-poiretOne text-base-plus mb-8 text-texto">
-            ¡Para el amor no existe el momento perfecto, sino la persona perfecta! Iniciamos 2020 con muchos sueños por cumplir y decidimos hacer realidad el más importante. Con vista al mar, disfrutando de la brisa y tomandonos fotos, con un poco de nervios llegó el momento. ¿Zaira te quieres casar conmigo?
+            ¡Para el amor no existe el momento perfecto, sino la persona perfecta! Iniciamos 2020 con muchos sueños por cumplir y decidimos hacer realidad el más importante. Con vista al mar, disfrutando de la brisa y tomandonos fotos, con muchos nervios llegó el momento. ¿te quieres casar conmigo?
           </p>
           <p className="font-poiretOne text-base-plus text-texto italic">
-            Me dio la mano y contestó: ¡Sí mi amor me quiero casar contigo! Con los ojos cristalinos nos abrazamos después de ese momento tan emotivo, ahora unos meses más tarde iniciaremos este viaje de vida juntos.
+            Ella muy nerviosa contestó: ¡Sí mi amor me quiero casar contigo! Con los ojos cristalinos nos abrazamos después de ese momento tan emotivo, ahora unos meses más tarde iniciaremos este viaje de vida juntos.
           </p>
           </div>
           <div className="w-full flex justify-center">
