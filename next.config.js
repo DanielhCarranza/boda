@@ -6,7 +6,20 @@ const nextConfig = {
     AIRTABLE_API_KEY: process.env['AIRTABLE_API_KEY']
   },
   images: {
-    domains: ["lh3.googleusercontent.com", "vercel.com"],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'lh3.googleusercontent.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'vercel.com',
+        port: '',
+        pathname: '/**',
+      },
+    ],
   },
   async redirects() {
     return [

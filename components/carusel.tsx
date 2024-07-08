@@ -16,7 +16,7 @@ const InfoCarousel = () => {
     >
       <div className="flex-shrink-0 w-full text-center p-5">
         <div className="w-[300px] h-[150px] mx-auto mb-4 relative">
-          <Image src="/Liverpool.jpg" alt="Liverpool" layout="fill" objectFit="cover" />
+          <Image src="/Liverpool.jpg" alt="Liverpool" layout="fill" objectFit='cover' />
         </div>
         <h3 className="font-poiretOne text-xl mb-2 text-texto">Mesa de regalos Liverpool</h3>
         <p className="font-poiretOne text-base mb-1 text-texto">Evento: 51465918</p>
@@ -26,12 +26,12 @@ const InfoCarousel = () => {
       </div>
       <div className="flex-shrink-0 w-full text-center p-5 mb-5">
         <div className="w-[300px] h-[150px] mx-auto mb-4 relative">
-            <Image src="/bbva.jpg" alt="BBVA" layout="fill" objectFit="cover" />
+            <Image src="/bbva.jpg" alt="BBVA" layout="fill" objectFit='cover' />
         </div>
         <h3 className="font-poiretOne text-xl mb-2 text-texto">Depósito o transferencia</h3>
         <p className="font-poiretOne text-base mb-1 text-texto">BBVA</p>
-        <p className="font-poiretOne text-base mb-1 text-texto">Tarjeta: 4152 3136 0646 1122</p>
-        <p className="font-poiretOne text-base text-texto">Referencia: &quot;BodaZyA&quot;</p>
+        <p className="font-poiretOne text-base mb-1 text-texto">Tarjeta: 4152 3134 1100 8976</p>
+        <p className="font-poiretOne text-base text-texto">Concepto: &quot;Tu Nombre y Apellido&quot;</p>
       </div>
       {/* Agrega más secciones segn sea necesario */}
     </Carousel>

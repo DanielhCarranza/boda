@@ -71,7 +71,7 @@ export default async function Home() {
           <h2 className="font-greatVibes text-3xl mb-3 mt-2 text-title">Padres y Padrinos</h2>
           <div className="mb-8">
             <h3 className="font-poiretOne text-2xl mb-2 text-texto">Padres de la Novia</h3>
-            <p className="font-poiretOne text-base-plus text-texto">Jose Luis Aguilar Medina</p>
+            <p className="font-poiretOne text-base-plus text-texto">Jose Luis Aguilar Preciado</p>
             <p className="font-poiretOne text-base-plus text-texto">Gabriela Medina Lozano</p>
           </div>
           <div className="mb-8">
@@ -80,7 +80,7 @@ export default async function Home() {
           </div>
           <div className="mb-8">
             <h3 className="font-poiretOne text-2xl mb-2 text-texto">Padrinos de Arras y Biblia</h3>
-            <p className="font-poiretOne text-base-plus text-texto">Karen Evireth Zamorano Enriquez</p>
+            <p className="font-poiretOne text-base-plus text-texto">Karem Evireth Zamorano Enriquez</p>
             <p className="font-poiretOne text-base-plus text-texto">Alan Burruel Romualdo</p>
           </div>
           <div className="mb-8">
@@ -162,11 +162,10 @@ export default async function Home() {
         <div className="text-center py-5">
           <h2 className="font-greatVibes text-3xl mb-3 mt-2 text-title">Nuestras recomendaciones</h2>
           <p className="font-poiretOne text-base-plus mb-8 text-texto">
-            No olvides utilizar nuestro filtro de Instagram y etiquetarnos
+            No olvides utilizar nuestro filtro de Instagram y etiquetarnos @zayabi25
           </p>
           <h2 className="font-tangerine text-2xl text-texto">#Zaira&Abhigael</h2>
-          <a 
-            href="https://www.instagram.com" 
+          <a href="https://www.instagram.com/ar/452927690859467" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="mt-4 inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-full shadow-sm text-title bg-fondo hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"

@@ -63,7 +63,7 @@ const RSVPForm: React.FC = () => {
     <section className="relative z-10 w-full max-w-xl py-5 px-5 xl:px-0 flex flex-col items-center justify-center bg-fondo2 border border-gray-300 rounded-lg mx-4 my-8">
       <form onSubmit={handleSubmit} className="w-full max-w-md p-5">
         <h4 className="font-parisienne text-3xl mb-3 text-title text-center">Confirma tu asistencia</h4>
-        <p className="font-poiretOne text-sm mb-5 text-texto text-center">*Evento con adolescentes mayores de 12 años.</p>
+        <p className="font-poiretOne text-sm mb-5 text-texto text-center">*No Niños.</p>
         <div className="mb-4">
           <input
             type="text"
@@ -102,7 +102,7 @@ const RSVPForm: React.FC = () => {
             name="message"
             value={formData.message}
             onChange={handleChange}
-            placeholder="Dedica un mensaje..."
+            placeholder="Si tienes alguna duda respecto al evento, escribela aqui y nos comunicaremos contigo..."
             className="w-full p-3 border border-gray-300 rounded-lg font-poiretOne"
             rows={4}
           />

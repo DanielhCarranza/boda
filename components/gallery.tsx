@@ -41,7 +41,7 @@ const Gallery = ({ images }: GalleryProps) => {
               <Image 
                 src={src} 
                 alt={`Boda Abhigael & Zayra ${currentIndex + index + 1}`} 
-                fill
+                layout="fill"
                 objectFit='cover'
                 className="transform transition-transform duration-300 hover:scale-105"
               />
