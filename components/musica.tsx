@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, useCallback } from 'react';
 
 const MusicPlayer = () => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -17,14 +17,14 @@ const MusicPlayer = () => {
     }
   };
 
-  const handleUserInteraction = () => {
+  const handleUserInteraction = useCallback(() => {
     if (audioRef.current && !isPlaying) {
       audioRef.current.play();
       setIsPlaying(true);
     }
     // Remove the event listener after the first interaction
     document.removeEventListener('click', handleUserInteraction);
-  };
+  }, [isPlaying]);
 
   useEffect(() => {
     // Add event listener for user interaction
@@ -33,7 +33,7 @@ const MusicPlayer = () => {
     return () => {
       document.removeEventListener('click', handleUserInteraction);
     };
-  }, []);
+  }, [handleUserInteraction]);
 
   return (
     <div className="fixed bottom-0 z-30 px-8 py-4 right-0">

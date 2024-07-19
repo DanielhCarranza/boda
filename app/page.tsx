@@ -15,7 +15,7 @@ export default async function Home() {
         <Image 
           src="/boda/IMG_2452.jpg" 
           alt="Boda Abhigael & Zayra" 
-          layout="fill" 
+          layout="fill"
           objectFit="cover" 
           quality={100}
         />
@@ -30,7 +30,11 @@ export default async function Home() {
           />
         </div>
         <div className="absolute bottom-0 right-0 p-4">
-          <img src="/anillos.svg" className="w-28 h-28" alt="Bottom Right Ornament" />
+          <Image 
+            src="/anillos.svg" 
+            width={60} 
+            height={60}
+            alt="Bottom Right Ornament" />
         </div>
       </section>      
       <section className="relative z-10 w-full py-10 max-w-xl px-5 xl:px-0 flex flex-col items-center justify-center bg-fondo2">
@@ -95,8 +99,18 @@ export default async function Home() {
           </div>
         </div>
         <div className="absolute top-0 left-0 w-full h-full pointer-events-none">
-          <img src="/hojas.svg" className="absolute top-0 right-0 w-24 h-24 object-cover opacity-25" alt="Top Right Ornament" />
-          <img src="/hojas.svg" className="absolute bottom-0 left-0 w-24 h-24 transform rotate-180 object-cover opacity-25" alt="Bottom Left Ornament" />
+          <Image 
+            src="/hojas.svg" 
+            width={80}
+            height={80}
+            className="absolute top-0 right-0 w-24 h-24 object-cover opacity-25" 
+            alt="Top Right Ornament" />
+          <Image 
+            src="/hojas.svg" 
+            width={80}
+            height={80}
+            className="absolute bottom-0 left-0 w-24 h-24 transform rotate-180 object-cover opacity-25" 
+            alt="Bottom Left Ornament" />
         </div>
       </section>
       <section className="relative w-full h-screen flex flex-col items-center justify-start bg-fondo2 md:pb-16">
