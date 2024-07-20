@@ -80,7 +80,7 @@ export default async function Home() {
           </div>
           <div className="mb-8">
             <h3 className="font-poiretOne text-2xl mb-2 text-texto">Padres del Novio</h3>
-            <p className="font-poiretOne text-base-plus text-texto">Concepcion Carranza Huerta</p>
+            <p className="font-poiretOne text-base-plus text-texto">Concepción Carranza Huerta</p>
           </div>
           <div className="mb-8">
             <h3 className="font-poiretOne text-2xl mb-2 text-texto">Padrinos de Arras y Biblia</h3>
@@ -130,13 +130,13 @@ export default async function Home() {
       </section>
       <section className="relative z-10 w-full bg-fondo py-10 max-w-xl px-5 xl:px-0 flex flex-col items-center justify-center">
         <div className="text-center">
-          <h2 className="font-greatVibes text-3xl mb-3 mt-2 text-title">Ubicacion</h2>
+          <h2 className="font-greatVibes text-3xl mb-3 mt-2 text-title">Ubicación</h2>
           <p className="font-poiretOne text-base-plus mb-3 text-texto">&quot;Antigua Hacienda Las Palmas&quot;</p>
           <p className="font-poiretOne text-base-plus mb-8 text-texto">Fabrica de Los Angeles #15, Tronconal, El Alamito Buenavista, Son</p>
           <div className="flex justify-center mb-3">
             <div> 
               <a href="https://maps.app.goo.gl/tv7saRPfTWwui8so8" target="_blank" rel="noopener noreferrer" className="w-24 h-12 flex items-center justify-center bg-border text-white rounded-full ml-4">
-                <p className="font-poiretOne text-lg">LLEVARME</p>
+                <p className="font-poiretOne text-lg">Ubicación</p>
               </a>
             </div>
           </div>
