@@ -33,12 +33,6 @@ const InfoCarousel = () => {
         <p className="font-poiretOne text-base mb-1 text-texto">Tarjeta: 4152 3134 1100 8976</p>
         <p className="font-poiretOne text-base text-texto">Concepto: &quot;Tu Nombre y Apellido&quot;</p>
       </div>
-      <div className="flex-shrink-0 w-full text-center p-5 mb-5">
-        <div className="w-[300px] h-[250px] mx-auto mb-4 relative flex items-center justify-center">
-            <Image src="/dress.jpg" alt="Dress" layout="fill" objectFit='cover' />
-        </div>
-      </div>
-      {/* Agrega más secciones segn sea necesario */}
     </Carousel>
   );
 };

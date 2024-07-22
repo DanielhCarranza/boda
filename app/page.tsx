@@ -192,7 +192,18 @@ export default async function Home() {
         </div>
       </section>
       <section className="relative overflow-hidden z-10 w-full max-w-md px-10 xl:px-0 flex flex-col items-center justify-center bg-fondo2">
+        <div className="text-center">
+          <h2 className="font-greatVibes text-3xl mb-2 mt-6 text-title">Mesa de Regalos</h2>
+        </div>
         <InfoCarousel />
+      </section>
+      <section className="relative overflow-hidden z-10 w-full max-w-md px-10 xl:px-0 flex flex-col items-center justify-center bg-fondo2 mt-8">
+        <h2 className="font-greatVibes text-3xl mt-6 z-10 text-title">Dress Code</h2>
+        <div className="flex-shrink-0 w-full text-center p-5">
+          <div className="w-full h-80 justify-center">
+              <Image src="/dress_2.png" alt="Dress" layout="fill" objectFit='cover' />
+          </div>
+        </div>
       </section>
     </>
   );
