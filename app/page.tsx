@@ -175,10 +175,10 @@ export default async function Home() {
       <section className="relative z-10 w-full max-w-xl px-5 xl:px-0 flex flex-col items-center justify-center bg-fondo2 rounded-lg mx-4 my-8">
         <div className="text-center py-5">
           <h2 className="font-greatVibes text-3xl mb-3 mt-2 text-title">Nuestras recomendaciones</h2>
-          <p className="font-poiretOne text-base-plus mb-8 text-texto">
-            No olvides utilizar nuestro filtro de Instagram y etiquetarnos @zayabi25
+          <p className="font-poiretOne text-base-plus mb-4 text-texto">
+            No olvides utilizar nuestro filtro de Instagram y etiquetarnos
           </p>
-          <h2 className="font-tangerine text-2xl text-texto">#Zaira&Abhigael</h2>
+          <h2 className="font-tangerine text-3xl text-texto">@zayabi25</h2>
           <a href="https://www.instagram.com/ar/452927690859467" 
             target="_blank" 
             rel="noopener noreferrer" 
@@ -195,7 +195,26 @@ export default async function Home() {
         <div className="text-center">
           <h2 className="font-greatVibes text-3xl mb-2 mt-6 text-title">Mesa de Regalos</h2>
         </div>
-        <InfoCarousel />
+        <div className="flex-shrink-0 w-full text-center p-5">
+          <div className="w-[300px] h-[150px] mx-auto mb-4 relative">
+            <Image src="/Liverpool.jpg" alt="Liverpool" layout="fill" objectFit='cover' />
+          </div>
+          <h3 className="font-poiretOne text-xl mb-2 text-texto">Mesa de regalos Liverpool</h3>
+          <p className="font-poiretOne text-base mb-1 text-texto">Evento: 51465918</p>
+          <a href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51465918" target="_blank" rel="noopener noreferrer">
+            <button className="font-poiretOne mt-4 px-4 py-2 bg-border text-white rounded-lg">COMPRAR REGALO</button>
+          </a>
+        </div>
+        <div className="flex-shrink-0 w-full text-center p-5 mb-5">
+          <div className="w-[300px] h-[150px] mx-auto mb-4 relative">
+              <Image src="/bbva.jpg" alt="BBVA" layout="fill" objectFit='cover' />
+          </div>
+          <h3 className="font-poiretOne text-xl mb-2 text-texto">Depósito o transferencia</h3>
+          <p className="font-poiretOne text-base mb-1 text-texto">BBVA</p>
+          <p className="font-poiretOne text-base mb-1 text-texto">Tarjeta: 4152 3143 1100 8976</p>
+          <p className="font-poiretOne text-base text-texto">Concepto: &quot;Tu Nombre y Apellido&quot;</p>
+        </div>
+        {/* <InfoCarousel /> */}
       </section>
       <section className="relative overflow-hidden z-10 w-full max-w-md px-10 xl:px-0 flex flex-col items-center justify-center bg-fondo2 mt-8">
         <h2 className="font-greatVibes text-3xl mt-6 z-10 text-title">Dress Code</h2>
