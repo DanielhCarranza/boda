@@ -39,7 +39,8 @@ const DateCounter: React.FC<CountdownProps> = ({ targetDate }) => {
 
   return (
     <div className="flex flex-col items-center justify-center h-[25vh] bg-fondo2">
-      <div className="relative text-center text-[#a27d6b] p-4 inline-block border border-[#a27d6b] rounded-lg">
+      {/* <div className="relative text-center text-[#a27d6b] p-4 inline-block border border-[#a27d6b] rounded-lg"> */}
+      <div className="relative text-center text-[#a27d6b] p-4 rounded-lg">  
         <div className="absolute top-[-22px] left-1/2 transform -translate-x-1/2 bg-fondo2 px-2">
           <h2 className="font-parisienne text-title text-2xl m-0">Faltan</h2>
         </div>
@@ -62,6 +63,7 @@ const DateCounter: React.FC<CountdownProps> = ({ targetDate }) => {
           </div>
         </div>
       </div>
+      <h2 className="text-title text-xl font-parisienne">Viernes 25 de Octubre 2024</h2>
     </div>
   );
 };
