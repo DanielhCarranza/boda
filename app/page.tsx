@@ -95,7 +95,7 @@ export default async function Home() {
           <div className="mb-4">
             <h3 className="font-poiretOne text-2xl mb-2 text-texto">Padrinos de Anillos</h3>
             <p className="font-poiretOne text-base-plus text-texto">Maria de Lourdes Carranza Huerta</p>
-            <p className="font-poiretOne text-base-plus text-texto">Juan Fernando Ibarra</p>
+            <p className="font-poiretOne text-base-plus text-texto">Juan Fernando Ibarra Rodriguez</p>
           </div>
         </div>
         <div className="absolute top-0 left-0 w-full h-full pointer-events-none">
