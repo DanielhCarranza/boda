@@ -214,6 +214,13 @@ export default async function Home() {
           <p className="font-poiretOne text-base mb-1 text-texto">Tarjeta: 4152 3143 1100 8976</p>
           <p className="font-poiretOne text-base text-texto">Concepto: &quot;Tu Nombre y Apellido&quot;</p>
         </div>
+        <div className="flex-shrink-0 w-full text-center p-5 mb-5">
+          <div className="w-[300px] h-[150px] mx-auto mb-4 relative">
+              <Image src="/sobres_.png" alt="Sobres" layout="fill" objectFit='cover' />
+          </div>
+          <h3 className="font-poiretOne text-xl mb-2 text-texto">Lluvia de sobres</h3>
+          <p className="font-poiretOne text-base mb-1 text-texto">En caso de que se te facilite darnos un regalo en efectivo, tambien tendremos lluvia de sobres</p>
+        </div>
         {/* <InfoCarousel /> */}
       </section>
       <section className="relative overflow-hidden z-10 w-full max-w-md px-10 xl:px-0 flex flex-col items-center justify-center bg-fondo2 mt-8">
