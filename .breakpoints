@@ -1,3 +1,12 @@
 {
-  "files": {}
+  "files": {
+    "app/layout.tsx": [
+      {
+        "id": "02f83e67-47e3-41f8-9634-b7a46adb794b",
+        "line": 10,
+        "version": 164,
+        "index": 333
+      }
+    ]
+  }
 }
