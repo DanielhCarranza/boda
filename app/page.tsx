@@ -2,7 +2,7 @@ import Image from "next/image";
 import Gallery from '@/components/gallery';
 import DateCounter from '@/components/date-counter';
 import RSVPForm from '@/components/rsvpForms';
-import InfoCarousel from '@/components/carusel';
+// import InfoCarousel from '@/components/carusel';
 
 import { getImages } from '@/lib/getimages';
 
